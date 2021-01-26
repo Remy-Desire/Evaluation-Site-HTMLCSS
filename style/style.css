@@ -21,9 +21,9 @@ header .title {
     margin-top: -30px;
 }    
 nav {
-    font-size: 0.6em;
-    font-weight: 550;
+    font-size: 0.5em;
     background: #798C35;
+    padding-right: 0px;
 }
 nav a {
     color: #242614;
@@ -34,4 +34,8 @@ nav a:active {
 }
 nav a:visited {
     color: #242614;
+}
+nav svg {
+    color: #242614;
+    padding-right: 5px;
 }
