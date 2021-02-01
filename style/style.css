@@ -39,3 +39,13 @@ nav svg {
     color: #242614;
     padding-right: 5px;
 }
+
+@media (max-width: 420px) {
+    .acceuil {
+        height: 68vh;
+    }
+    .acceuil img {
+        height: 75vh;
+        width: max-content;
+    }
+}
