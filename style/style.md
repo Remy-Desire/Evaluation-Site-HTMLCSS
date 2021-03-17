@@ -3,6 +3,7 @@ Main 1 : #1D0F04
 Main 2 : #E2B75A
 Secondary 1 : #3F260B
 Secondary 2 : #718D34
+Thirty 1 : #040404
 
 Fonts : 
 Amatic : font-family: amatic-sc, sans-serif;

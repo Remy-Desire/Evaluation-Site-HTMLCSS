@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding-top: 20px;
+    background-color: #040404;
+    color: #E2B75A;
+}
+h1 {
+    font-size: 40px;
+    top: -10px;
+    font-family: 'Amatic SC', cursive;
+}
+.menu img {
+    height: 30px; 
+}
