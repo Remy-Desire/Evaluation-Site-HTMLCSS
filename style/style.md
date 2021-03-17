@@ -1,16 +1,25 @@
-Primary Color : #485922
-Secondary Color : #242614
-Thirty Color : #F2F2F2
-Alternative Color 1: #798C35
-Alternative Color 2: #B4BF5E
-https://color.adobe.com/fr/trends/Wilderness
+Colors : 
+Main 1 : #1D0F04
+Main 2 : #E2B75A
+Secondary 1 : #3F260B
+Secondary 2 : #718D34
 
-Main Font Familly :<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-font-family: 'Amatic SC', cursive;
+Fonts : 
+Amatic : font-family: amatic-sc, sans-serif;
+Arimo : font-family: arimo, sans-serif;
 
-Secondary Font Familly :<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Baloo+2&display=swap" rel="stylesheet">
-font-family: 'Baloo 2', cursive;
+Taille font mobile:
+Title 1 : 55
+Title 2 : 30
+Title 3 : 45
+Paragraphe 1 : 12
+Paragraphe 2 : 20
 
-Size Font Familly :
+Taille font web:
+Title 1 : 60
+Title 2 : 50
+Title 3 : 40
+Menu : 30
+Paragraphe 1 : 20
+Paragraphe 2 : 15
+
