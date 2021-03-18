@@ -5,26 +5,106 @@ html, body {
     margin: 0;
     padding: 0;
 }
+/*Trouver un moyen pour que le header passe au-dessus de tout*/
 header {
     padding-top: 20px;
-    background-color: #040404;
+    background-color: #04040400;
     color: #E2B75A;
-    position: fixed;
+    position: fixed;  
+}
+h1, h2 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
 }
 h1 {
     font-size: 40px;
     top: -10px;
-    font-family: 'Amatic SC', cursive;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+h3 {
+    font-size: 20px;
+    text-align: left;
+}
+p {
+    font-family: arimo, sans-serif;
+    font-size: 12px; 
+}
+.container {
+    background-image: url(../Images/Background\ Mobile.png);
+    width: ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .menu img {
     height: 30px; 
 }
 .accueil {
     background-image: url('../Images/photoaccueilmobile.jpg');
-    background-position: 60% -40%;    
+    background-position: 60% 80%;    
     height: 100vh; 
 }
-
-/* Ajouter la flèche scroll en fixe sur le bas de la page centré */
-
-
+.scroll img {
+    position: fixed;
+    top: 92vh;
+    margin-left: 40vw;
+}
+.card {
+    background-color: #e2b75acb;
+    width: 80vw;
+    margin-top: 120px;
+    margin-left: 7.5vw;
+    position: relative;
+    border-radius: 15%;
+}
+.card-title {
+    margin-top: 15px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 2px;
+}
+.card-img-top {
+    width: 200px;
+    margin: auto;
+    border-radius: 10%;
+    border: solid;
+}
+.sub-title {
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+.text-contact {
+    font-size: 12px;
+    text-align: center;
+}
+iframe {
+    border: solid;
+    border-radius: 10%;
+    margin-left: 15px;
+}
+.text-tel {
+    font-size: 13px;
+    margin-top: 3px;
+}
+.horaire {
+    font-size: 15px;
+    text-align: center;
+}
+a {
+    color: black;
+    font-weight: bold;
+}
+/*Finir le boutton */
+button {
+    color: black;
+    text-align: center;
+}
