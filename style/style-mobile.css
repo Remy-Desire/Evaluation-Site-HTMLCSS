@@ -5,7 +5,6 @@ html, body {
     margin: 0;
     padding: 0;
 }
-/*Trouver un moyen pour que le header passe au-dessus de tout*/
 header {
     padding-top: 20px;
     background-color: #04040400;
@@ -35,7 +34,6 @@ p {
 }
 .container {
     background-image: url(../Images/Background\ Mobile.png);
-    width: ;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -54,7 +52,7 @@ p {
 .scroll img {
     position: fixed;
     top: 92vh;
-    margin-left: 40vw;
+    margin-left: 38vw;
 }
 .card {
     background-color: #e2b75acb;
@@ -63,6 +61,7 @@ p {
     margin-left: 7.5vw;
     position: relative;
     border-radius: 15%;
+    margin-bottom: 100px;
 }
 .card-title {
     margin-top: 15px;
@@ -106,6 +105,9 @@ a {
     color: black;
     font-weight: bold;
 }
+.card button {
+    margin-left: 25%;
+}
 button {
     color: black;
     text-align: center;
@@ -113,5 +115,20 @@ button {
     border: none;
     border-radius: 10%;
     font-size: 25px;
+}
+.partenaire h2 {
+    margin: auto;
+    color: #E2B75A;
+    font-size: 30px;
+}
+
+.carousel-inner {
+    margin-top: 50px;
     margin-left: 25%;
+}
+.carousel-control-prev {
+    background-color: #e2b75a00;
+}
+.carousel-control-next {
+    background-color: #e2b75a00;
 }
