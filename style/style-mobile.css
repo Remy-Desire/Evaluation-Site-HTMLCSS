@@ -124,11 +124,18 @@ button {
 
 .carousel-inner {
     margin-top: 50px;
-    margin-left: 25%;
+    left: 84px;
 }
-.carousel-control-prev {
+
+.carousel-control-prev  {
     background-color: #e2b75a00;
+    background-image: url(../Images/Fleche\ Scroll\ left.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.carousel-control-next {
+.carousel-control-next  {
     background-color: #e2b75a00;
+    background-image: url(../Images/Fleche\ Scroll\ right.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
