@@ -9,7 +9,7 @@ header {
     padding-top: 20px;
     background-color: #04040400;
     color: #E2B75A;
-    position: fixed;  
+    position: fixed; 
 }
 h1, h2, button {
     font-family: 'Amatic SC', cursive;
@@ -116,17 +116,23 @@ button {
     border-radius: 10%;
     font-size: 25px;
 }
+.card-contact {
+    margin-bottom: 30px;
+}
 .partenaire h2 {
     margin: auto;
     color: #E2B75A;
     font-size: 30px;
 }
-
-.carousel-inner {
+.carousel {
     margin-top: 50px;
-    left: 84px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
-
+.carousel-inner img {
+    margin: auto;
+}
 .carousel-control-prev  {
     background-color: #e2b75a00;
     background-image: url(../Images/Fleche\ Scroll\ left.png);
@@ -138,4 +144,18 @@ button {
     background-image: url(../Images/Fleche\ Scroll\ right.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+footer {
+    position: relative;
+    background: #E2B75A;
+    text-align: center;
+    padding: 5px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px; 
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    margin-top: 15px;
 }
