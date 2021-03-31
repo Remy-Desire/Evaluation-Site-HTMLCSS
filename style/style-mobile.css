@@ -32,8 +32,15 @@ p {
     font-family: arimo, sans-serif;
     font-size: 12px; 
 }
-.container {
+.index {
     background-image: url(../Images/Background\ Mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.event {
+    background-image: url(../Images/background-2-mobile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -57,11 +64,16 @@ p {
 .card {
     background-color: #e2b75acb;
     width: 80vw;
-    margin-top: 120px;
     margin-left: 7.5vw;
     position: relative;
     border-radius: 15%;
     margin-bottom: 100px;
+}
+.margin-index {
+    margin-top: 120px;
+}
+.margin-event {
+    margin-top: 40px;
 }
 .card-title {
     margin-top: 15px;
@@ -158,4 +170,8 @@ footer {
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
     margin-top: 15px;
+}
+.actu {
+    padding-top: 80px;
+    color: #E2B75A;
 }
