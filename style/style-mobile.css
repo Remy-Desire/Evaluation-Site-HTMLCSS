@@ -56,8 +56,20 @@ p {
     width: max-content;
     font-weight: bolder;
     font-size: 20px;
-
 }
+.form-label {
+    font-size: 20px;
+}
+.modal-title {
+    font-size: 20px;
+}
+.modal {
+    background-color: #e2b75adc;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    height: 100%;
+}
+
 .accueil {
     background-image: url('../Images/photoaccueilmobile.jpg');
     background-position: 60% 80%;    
@@ -107,11 +119,19 @@ p {
     font-size: 12px;
     text-align: center;
 }
-iframe {
+.responsive-iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 60%;
+    margin: auto;
     border: solid;
-    border-radius: 10%;
-    margin-left: 5px;
-}
+    border-radius: 5%;
+    text-align: center;
+  }
 .text-tel {
     font-size: 13px;
     margin-top: 3px;
@@ -125,7 +145,7 @@ a {
     font-weight: bold;
 }
 .card button {
-    margin-left: 25%;
+    margin-left: 20%;
 }
 button {
     color: black;
@@ -170,6 +190,7 @@ footer {
     text-align: center;
     padding: 5px;
 }
+
 .links {
     display: flex;
     justify-content: space-between;

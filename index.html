@@ -68,7 +68,7 @@
             <div class="sub-title">Adresse:</div><div class="text-contact">  215, chemin des carrières  lieu-dit   "Champrond" </br>
               38 450 LE Gua</div>  
             </div>            
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11278.274423112496!2d5.6469962!3d45.0336821!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd1269da6f470bbdb!2sLe%20Tichodrome!5e0!3m2!1sfr!2sfr!4v1616066193995!5m2!1sfr!2sfr" width="250" height="200" allowfullscreen="" loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11278.274423112496!2d5.6469962!3d45.0336821!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd1269da6f470bbdb!2sLe%20Tichodrome!5e0!3m2!1sfr!2sfr!4v1616066193995!5m2!1sfr!2sfr" class="responsive-iframe" loading="lazy"></iframe>
           <div class="card-text contact">
             <div class="sub-title">Tel :</div><div class="text-tel">  04.25.60.48.23</div>
           </div>    
@@ -79,7 +79,41 @@
             <div class="sub-title">Mail :</div><div class="text-contact">  letichodrome38@gmail.com</div>
           </div>   
           <p class="horaire">Retrouver nos horaire <a href="">ICI</a></p> 
-          <button><a href="">Nous Contacter</a></button>
+          <!-- Button trigger modal -->
+          <button type="button"data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Nous Contacter</button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Nous Contacter</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="InputName" class="form-label">Nom / Prénom</label>
+                      <input type="name" class="form-control" id="Inputname">
+                    </div>  
+                    <div class="mb-3">
+                      <label for="InputEmail1" class="form-label">Adresse E-mail</label>
+                      <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">Entrer votre adresse mail ici</div>
+                    </div>              
+                    <div class="mb-3">
+                      <label for="Commentaire" class="form-label">Commentaires</label>
+                      <textarea class="form-control" aria-label="Commentaire"></textarea>
+                    </div>                 
+                </div>
+                <div class="modal-footer">
+                  <button type="submit">Envoyer</button>
+                  <button type="button" data-bs-dismiss="modal">Fermer</button>
+                </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
         
       </div>
