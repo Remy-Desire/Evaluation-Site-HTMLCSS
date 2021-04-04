@@ -13,15 +13,38 @@
 <body>
   <div class="container index">
     <header class="row">
+      <!--Logo à modifier-->
       <div class="logo col-3"><img src="./Images/logo-temp.png" class="img-fluid"></div>
       <h1 class="col-6">Tichodrome</h1>
-      <div class="menu col-3"><img src="./Images/logo Menu.png" class="img-fluid"</div>
+      <!-- Activation de la modal -->
+      <div class="menu col-3" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="./Images/logo Menu.png" class="img-fluid"></div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
+    <!--Background Full screen-->
     <div class="accueil row">
     </div>
+    <!--Flêche scroll fix-->
     <div class="scroll">
       <img src="./Images/Fleche Scroll.png">
     </div>
+    <!--3 Card sur background fix-->
     <div class="background">
       <div class="card row margin-index">
         <h2 class="card-title">Notre Association</h2>
@@ -67,7 +90,7 @@
         </div>
         
       </div>
-
+      <!--Carousel (pour l'instant ne fonctionne pas)-->
       <div class="partenaire">
         <h2>Nos partenaire</h2>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -102,8 +125,8 @@
     </footer>
 
   </div>
-<script src="./JS/jquery.min.js"></script>
-<script src="./JS/bootstrap.min.js"></script>
-<script src="./JS/script.js"></script>
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
