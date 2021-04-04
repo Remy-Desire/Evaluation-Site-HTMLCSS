@@ -49,6 +49,15 @@ p {
 .menu img {
     height: 30px; 
 }
+.dropdown-menu {
+    background-color: #e2b75adc;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    width: max-content;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
 .accueil {
     background-image: url('../Images/photoaccueilmobile.jpg');
     background-position: 60% 80%;    
@@ -66,7 +75,7 @@ p {
     width: 80vw;
     margin-left: 7.5vw;
     position: relative;
-    border-radius: 15%;
+    border-radius: 10%;
     margin-bottom: 100px;
 }
 .margin-index {
@@ -86,10 +95,8 @@ p {
     padding: 2px;
 }
 .card-img-top {
-    width: 200px;
     margin: auto;
     border-radius: 10%;
-    border: solid;
 }
 .sub-title {
     font-size: 15px;
@@ -103,7 +110,7 @@ p {
 iframe {
     border: solid;
     border-radius: 10%;
-    margin-left: 25px;
+    margin-left: 5px;
 }
 .text-tel {
     font-size: 13px;
