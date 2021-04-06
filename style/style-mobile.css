@@ -5,7 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
 }
-.navbar, .carousel-acceuil {
+.navbar, .carousel-acceuil, .message-acceuil {
     display: none;
 }
 
