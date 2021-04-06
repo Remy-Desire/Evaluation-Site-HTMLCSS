@@ -5,12 +5,8 @@ html, body {
     margin: 0;
     padding: 0;
 }
-header {
-    padding-top: 20px;
-    background-color: #04040400;
-    color: #E2B75A;
-    position: fixed; 
-}
+
+/* Textes */
 h1, h2, button {
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
@@ -24,14 +20,46 @@ h2 {
     text-align: center;
     text-decoration: underline;
 }
-h3 {
+.form-label, .modal-title {
     font-size: 20px;
-    text-align: left;
 }
-p {
+p, .text-contact  {
     font-family: arimo, sans-serif;
     font-size: 12px; 
+    text-align: center;
 }
+.sub-title {
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+.text-tel {
+    font-size: 13px;
+    margin-top: 3px;
+}
+.horaire {
+    font-size: 15px;
+    text-align: center;
+}
+a {
+    color: black;
+    font-weight: bold;
+}
+.partenaire h2 {
+    margin: auto;
+    color: #E2B75A;
+    font-size: 30px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px; 
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Background */
 .index {
     background-image: url(../Images/Background\ Mobile.png);
     background-position: center;
@@ -46,30 +74,6 @@ p {
     background-attachment: fixed;
     background-size: cover;
 }
-.menu img {
-    height: 30px; 
-}
-.dropdown-menu {
-    background-color: #e2b75adc;
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
-    width: max-content;
-    font-weight: bolder;
-    font-size: 20px;
-}
-.form-label {
-    font-size: 20px;
-}
-.modal-title {
-    font-size: 20px;
-}
-.modal {
-    background-color: #e2b75adc;
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
-    height: 100%;
-}
-
 .accueil {
     background-image: url('../Images/photoaccueilmobile.jpg');
     background-position: 60% 80%;    
@@ -77,10 +81,34 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* Images */
+.menu img {
+    height: 30px; 
+}
 .scroll img {
     position: fixed;
     top: 92vh;
     margin-left: 38vw;
+}
+.card-img-top {
+    margin: auto;
+    border-radius: 10%;
+}
+
+/* Composants */
+header {
+    padding-top: 20px;
+    background-color: #04040400;
+    color: #E2B75A;
+    position: fixed; 
+}
+.dropdown-menu, .modal {
+    background-color: #e2b75adc;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
 }
 .card {
     background-color: #e2b75acb;
@@ -90,34 +118,12 @@ p {
     border-radius: 10%;
     margin-bottom: 100px;
 }
-.margin-index {
-    margin-top: 120px;
-}
-.margin-event {
-    margin-top: 40px;
-}
-.card-title {
-    margin-top: 15px;
-}
 .contact {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-between;
     padding: 2px;
-}
-.card-img-top {
-    margin: auto;
-    border-radius: 10%;
-}
-.sub-title {
-    font-size: 15px;
-    text-align: left;
-    font-weight: bold;
-}
-.text-contact {
-    font-size: 12px;
-    text-align: center;
 }
 .responsive-iframe {
     position: relative;
@@ -131,19 +137,32 @@ p {
     border: solid;
     border-radius: 5%;
     text-align: center;
-  }
-.text-tel {
-    font-size: 13px;
-    margin-top: 3px;
 }
-.horaire {
-    font-size: 15px;
+  footer {
+    position: relative;
+    background: #E2B75A;
     text-align: center;
+    padding: 5px;
 }
-a {
-    color: black;
-    font-weight: bold;
+
+/* Marges */
+.margin-index {
+    margin-top: 120px;
 }
+.margin-event {
+    margin-top: 40px;
+}
+.card-title {
+    margin-top: 15px;
+}
+.card-contact {
+    margin-bottom: 30px;
+}
+.carousel-inner img {
+    margin: auto;
+}
+
+/* Bouttons */
 .card button {
     margin-left: 20%;
 }
@@ -155,22 +174,13 @@ button {
     border-radius: 10%;
     font-size: 25px;
 }
-.card-contact {
-    margin-bottom: 30px;
-}
-.partenaire h2 {
-    margin: auto;
-    color: #E2B75A;
-    font-size: 30px;
-}
+
+/* Carousel */
 .carousel {
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
-}
-.carousel-inner img {
-    margin: auto;
 }
 .carousel-control-prev  {
     background-color: #e2b75a00;
@@ -184,21 +194,8 @@ button {
     background-repeat: no-repeat;
     background-position: center;
 }
-footer {
-    position: relative;
-    background: #E2B75A;
-    text-align: center;
-    padding: 5px;
-}
 
-.links {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px; 
-    font-family: 'Amatic SC', cursive;
-    font-weight: bold;
-    margin-top: 15px;
-}
+/* Autres */
 .actu {
     padding-top: 80px;
     color: #E2B75A;
