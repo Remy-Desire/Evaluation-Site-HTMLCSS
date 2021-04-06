@@ -5,6 +5,9 @@ html, body {
     margin: 0;
     padding: 0;
 }
+.navbar, .carousel-acceuil {
+    display: none;
+}
 
 /* Textes */
 h1, h2, button {
@@ -201,3 +204,4 @@ button {
     padding-top: 80px;
     color: #E2B75A;
 }
+
