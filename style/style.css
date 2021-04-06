@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.no-gutter {
+    padding-right:0;
+    padding-left:0;
+}
+
+.page-index {
+    background-image: url(../Images/background-web-index.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.dropdown, .scroll {
+    display: none;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;    
+    text-align: center;
+    font-size: 60px;
+    color: #E2B75A;
+}
+h2 {
+    font-family: 'Amatic SC', cursive;
+    color: #E2B75A;
+    font-size: 40px;   
+}
+
+header {
+    background: #3F260B;
+    position: fixed;
+    width: 101vw;
+    z-index: 1;
+}
+
+header img {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100px;
+}
+
+.navbar a {
+    color: #E2B75A;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;   
+}
+
+/* Carousel */
+.carousel-acceuil {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.carousel-control-prev  {
+    background-color: #e2b75a00;
+    background-image: url(../Images/Fleche\ Scroll\ left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.carousel-control-next  {
+    background-color: #e2b75a00;
+    background-image: url(../Images/Fleche\ Scroll\ right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.carousel-item {
+    height: 100vh;
+}
+
+.message-acceuil {
+    position: absolute;
+    z-index: 1;
+    margin-top: 47vh;
+    margin-left: 30                                                                                      vw;
+    width: 40vw;
+    background: #3f260b70;
+    text-align: center;
+}
+
+
