@@ -9,7 +9,11 @@ html, body {
     padding-right:0;
     padding-left:0;
 }
+.dropdown, .scroll {
+    display: none;
+}
 
+/*Background*/
 .page-index {
     background-image: url(../Images/background-web-index.png);
     background-position: center;
@@ -24,109 +28,7 @@ html, body {
     background-attachment: fixed;
     background-size: cover;
 }
-
-.dropdown, .scroll {
-    display: none;
-}
-
-header h1 {
-    font-family: 'Amatic SC', cursive;    
-    text-align: center;
-    font-size: 60px;
-    color: #E2B75A;
-}
-header h2 {
-    font-family: 'Amatic SC', cursive;
-    color: #E2B75A;
-    font-size: 40px;   
-}
-
-header {
-    background: #3f260b83;
-    position: fixed;
-    width: 101%;
-    z-index: 1;
-}
-
-header img {
-    margin-top: 10px;
-    margin-left: 20px;
-    width: 100px;
-}
-
-.navbar a {
-    color: #E2B75A;
-    font-family: 'Amatic SC', cursive;
-    font-size: 30px;   
-}
-
-/* Carousel */
-.carousel-acceuil {
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-}
-.carousel-control-prev  {
-    background-color: #e2b75a00;
-    background-image: url(../Images/Fleche\ Scroll\ left.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.carousel-control-next  {
-    background-color: #e2b75a00;
-    background-image: url(../Images/Fleche\ Scroll\ right.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.carousel-acceuil-item {
-    height: 100vh;
-}
-.carousel-partenaire {
-    display: flex;
-    height: 100%;
-    justify-content: space-around;
-}
-
-.message-acceuil {
-    position: absolute;
-    z-index: 1;
-    margin-top: 47vh;
-    margin-left: 35%;                                                                                      vw;
-    width: 30%;
-    background: #3f260b2a;
-    text-align: center;
-    border-radius: 10px;
-    color: #E2B75A;
-}
-
-.partenaire {
-    text-align: center;
-}
-.partenaire h2 {
-    color: #E2B75A;
-}
-footer {
-    position: relative;
-    background: #e2b75ac9;
-    text-align: center;
-    padding: 5px;
-    margin-top: 50px;
-}
-footer h1 {
-    color: black;
-}
-.links {
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px; 
-    font-family: 'Amatic SC', cursive;
-    font-weight: bold;
-    margin-top: 15px;
-}
-h1, h2, button {
-    font-family: 'Amatic SC', cursive;
-    font-weight: bold;
-}
+/*font style*/
 h1 {
     font-size: 40px;
     top: -10px;
@@ -159,6 +61,101 @@ p, .text-contact  {
 a {
     color: black;
     font-weight: bold;
+}
+h1, h2, button {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+header h1 {
+    font-family: 'Amatic SC', cursive;    
+    text-align: center;
+    font-size: 60px;
+    color: #E2B75A;
+}
+header h2 {
+    font-family: 'Amatic SC', cursive;
+    color: #E2B75A;
+    font-size: 40px;   
+}
+.navbar a {
+    color: #E2B75A;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;   
+}
+.partenaire h2 {
+    color: #E2B75A;
+    text-align: center;
+}
+
+header {
+    background: #3f260b83;
+    position: fixed;
+    width: 101%;
+    z-index: 1;
+}
+
+/*Images*/
+header img {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100px;
+}
+
+
+/* Carousel */
+.carousel-acceuil {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.carousel-control-prev  {
+    background-color: #e2b75a00;
+    background-image: url(../Images/Fleche\ Scroll\ left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.carousel-control-next  {
+    background-color: #e2b75a00;
+    background-image: url(../Images/Fleche\ Scroll\ right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.carousel-acceuil-item {
+    height: 100vh;
+}
+.carousel-partenaire {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+}
+
+/*Composants*/
+.message-acceuil {
+    position: absolute;
+    z-index: 1;
+    margin-top: 47vh;
+    margin-left: 35%;                                                                                      vw;
+    width: 30%;
+    background: #3f260b2a;
+    text-align: center;
+    border-radius: 10px;
+    color: #E2B75A;
+}
+footer {
+    position: relative;
+    background: #e2b75ac9;
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+    color: black;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px; 
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    margin-top: 15px;
 }
 .card {
     background-color: #e2b75acb;
@@ -205,6 +202,8 @@ a {
     -webkit-box-shadow: 6px 7px 9px -3px rgba(0,0,0,0.07);
     -moz-box-shadow: 6px 7px 9px -3px rgba(0,0,0,0.07);
 }
+
+/*Autres*/
 .actu {
     padding-top: 120px;
 }
