@@ -39,7 +39,7 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Le Tichodrome</a>
-              <a class="nav-link" href="#">Actus/Evenements</a>
+              <a class="nav-link" href="./event-news.html">Actus/Evenements</a>
               <a class="nav-link" href="#">Don/Adhesion</a>
               <a class="nav-link" href="#">Photos/Videos</a>
               <a class="nav-link" href="#">Accès/Contact</a>
@@ -55,11 +55,12 @@
     <div class="scroll">
       <img src="./Images/Fleche Scroll.png">
     </div>
+    <!--Background carousel full screen web-->
     <div class="message-acceuil">
       <h2>Centre de sauvegarde de la faune sauvage en Isère</h2>
     </div>
     <div id="carouselExampleSlidesOnly" class="carousel-acceuil slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
+      <div class="carousel-inner carousel-acceuil-item">
         <div class="carousel-item active">
           <img src="./Images/photo6.jpg" class="d-block w-100" alt="photo6">
         </div>
@@ -76,106 +77,112 @@
     </div>
     <!--3 Cards-->
     <div class="background">
-      <div class="card row margin-index">
-        <h2 class="card-title">Notre Association</h2>
-        <img class="card-img-top" src="./Images/photo3.jpg" alt="Card Image Cap">
-        <div class="card-body">
-          <p class="card-text">Completely network inexpensive benefits whereas B2B systems. Globally integrate prospective sources and client-focused data.
-            Quickly benchmark impactful markets and world-class partnerships. Appropriately transform vertical systems for multifunctional customer service. Intrinsicly network magnetic niche markets with standards compliant data.
-            Intrinsicly network magnetic niche markets with standards compliant data.
-            Intrinsicly network magnetic niche markets with standards compliant data.
-          </p>
+      <div class="row justify-content-around">
+        <div class="col-sm-2"></div>
+        <div class="card margin-index col-sm-4">
+          <h2 class="card-title">Notre Association</h2>
+          <img class="card-img-top" src="./Images/photo3.jpg" alt="Card Image Cap">
+          <div class="card-body">
+            <p class="card-text">Completely network inexpensive benefits whereas B2B systems. Globally integrate prospective sources and client-focused data.
+              Quickly benchmark impactful markets and world-class partnerships. Appropriately transform vertical systems for multifunctional customer service. Intrinsicly network magnetic niche markets with standards compliant data.
+              Intrinsicly network magnetic niche markets with standards compliant data.
+              Intrinsicly network magnetic niche markets with standards compliant data.
+            </p>
+          </div>
+        </div>
+        <div class="card margin-index card-event col-sm-4">
+          <h2 class="card-title">25/02 - Porte Ouverte</h2>
+          <img class="card-img-top" src="./Images/photo6.jpg" alt="Card Image Cap">
+          <div class="card-body">
+            <p class="card-text">Completely network inexpensive benefits whereas B2B systems. Globally integrate prospective sources and client-focused data.
+              Quickly benchmark impactful markets and world-class partnerships. Appropriately transform vertical systems for multifunctional customer service. Intrinsicly network magnetic niche markets with standards compliant data.
+              Intrinsicly network magnetic niche markets with standards compliant data.
+              Intrinsicly network magnetic niche markets with standards compliant data.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="card row margin-index">
-        <h2 class="card-title">25/02 - Porte Ouverte</h2>
-        <img class="card-img-top" src="./Images/photo6.jpg" alt="Card Image Cap">
-        <div class="card-body">
-          <p class="card-text">Completely network inexpensive benefits whereas B2B systems. Globally integrate prospective sources and client-focused data.
-            Quickly benchmark impactful markets and world-class partnerships. Appropriately transform vertical systems for multifunctional customer service. Intrinsicly network magnetic niche markets with standards compliant data.
-            Intrinsicly network magnetic niche markets with standards compliant data.
-            Intrinsicly network magnetic niche markets with standards compliant data.
-          </p>
-        </div>
-      </div>
-      <div class="card card-contact row margin-index">
-        <h2 class="card-title contact-title">Contact</h2>
-        <div class="card-body">
-          <div class="card-text contact">
-            <div class="sub-title">Adresse:</div><div class="text-contact">  215, chemin des carrières  lieu-dit   "Champrond" </br>
-              38 450 LE Gua</div>  
-            </div>            
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11278.274423112496!2d5.6469962!3d45.0336821!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd1269da6f470bbdb!2sLe%20Tichodrome!5e0!3m2!1sfr!2sfr!4v1616066193995!5m2!1sfr!2sfr" class="responsive-iframe" loading="lazy"></iframe>
-          <div class="card-text contact">
-            <div class="sub-title">Tel :</div><div class="text-tel">  04.25.60.48.23</div>
-          </div>    
-          <div class="card-text contact">
-            <div class="sub-title">Portable :</div><div class="text-tel">  06.25.60.48.23</div>
-          </div>    
-          <div class="card-text contact">
-            <div class="sub-title">Mail :</div><div class="text-contact">  letichodrome38@gmail.com</div>
-          </div>   
-          <p class="horaire">Retrouver nos horaire <a href="">ICI</a></p> 
-          <!-- Button trigger modal -->
-          <button type="button"data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Nous Contacter</button>
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Nous Contacter</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="row justify-content-around mt-md-5
+      ">
+        <div class="col-sm-1"></div>
+        <div class="card card-contact margin-index col-sm-3 ">
+          <h2 class="card-title contact-title">Contact</h2>
+          <div class="card-body">
+            <div class="card-text contact">
+              <div class="sub-title">Adresse:</div><div class="text-contact">  215, chemin des carrières  lieu-dit   "Champrond" </br>
+                38 450 LE Gua</div>  
+              </div>            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11278.274423112496!2d5.6469962!3d45.0336821!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd1269da6f470bbdb!2sLe%20Tichodrome!5e0!3m2!1sfr!2sfr!4v1616066193995!5m2!1sfr!2sfr" class="responsive-iframe" loading="lazy"></iframe>
+            <div class="card-text contact">
+              <div class="sub-title">Tel :</div><div class="text-tel">  04.25.60.48.23</div>
+            </div>    
+            <div class="card-text contact">
+              <div class="sub-title">Portable :</div><div class="text-tel">  06.25.60.48.23</div>
+            </div>    
+            <div class="card-text contact">
+              <div class="sub-title">Mail :</div><div class="text-contact">  letichodrome38@gmail.com</div>
+            </div>   
+            <p class="horaire">Retrouver nos horaire <a href="">ICI</a></p> 
+            <!-- Button trigger modal -->
+            <button type="button"data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Nous Contacter</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Nous Contacter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="InputName" class="form-label">Nom / Prénom</label>
+                        <input type="name" class="form-control" id="Inputname">
+                      </div>  
+                      <div class="mb-3">
+                        <label for="InputEmail1" class="form-label">Adresse E-mail</label>
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Entrer votre adresse mail ici</div>
+                      </div>              
+                      <div class="mb-3">
+                        <label for="Commentaire" class="form-label">Commentaires</label>
+                        <textarea class="form-control" aria-label="Commentaire"></textarea>
+                      </div>                 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit">Envoyer</button>
+                    <button type="button" data-bs-dismiss="modal">Fermer</button>
+                  </div>
+                  </form>
                 </div>
-                <div class="modal-body">
-                  <form>
-                    <div class="mb-3">
-                      <label for="InputName" class="form-label">Nom / Prénom</label>
-                      <input type="name" class="form-control" id="Inputname">
-                    </div>  
-                    <div class="mb-3">
-                      <label for="InputEmail1" class="form-label">Adresse E-mail</label>
-                      <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">Entrer votre adresse mail ici</div>
-                    </div>              
-                    <div class="mb-3">
-                      <label for="Commentaire" class="form-label">Commentaires</label>
-                      <textarea class="form-control" aria-label="Commentaire"></textarea>
-                    </div>                 
-                </div>
-                <div class="modal-footer">
-                  <button type="submit">Envoyer</button>
-                  <button type="button" data-bs-dismiss="modal">Fermer</button>
-                </div>
-                </form>
               </div>
             </div>
           </div>
         </div>
-        
-      </div>
-      <!--Carousel-->
-      <div class="partenaire">
-        <h2>Nos partenaire</h2>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./Images/Ellipse Transisère.png" class="d-block w-50" alt="transis">
+        <!--Carousel-->
+        <div class="partenaire col-sm-5">
+          <h2>Nos partenaire</h2>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner carousel-partenaire">
+              <div class="carousel-item active">
+                <img src="./Images/Ellipse Transisère.png" class="d-block w-50" alt="transis">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/Nature.png" class="d-block w-50" alt="nature">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/Vicat.png" class="d-block w-50" alt="vicat">
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="./Images/Nature.png" class="d-block w-50" alt="nature">
-            </div>
-            <div class="carousel-item">
-              <img src="./Images/Vicat.png" class="d-block w-50" alt="vicat">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+            </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
-          </button>
         </div>
-      </div>
-    </div>  
+      </div> 
+  </div> 
     <footer>
       <h1>Le Tichodrome</h1>
       <div class="reseau">

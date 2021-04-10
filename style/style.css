@@ -17,18 +17,25 @@ html, body {
     background-attachment: fixed;
     background-size: cover;
 }
+.event {
+    background-image: url(../Images/background-event-web.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 .dropdown, .scroll {
     display: none;
 }
 
-h1 {
+header h1 {
     font-family: 'Amatic SC', cursive;    
     text-align: center;
     font-size: 60px;
     color: #E2B75A;
 }
-h2 {
+header h2 {
     font-family: 'Amatic SC', cursive;
     color: #E2B75A;
     font-size: 40px;   
@@ -37,7 +44,7 @@ h2 {
 header {
     background: #3f260b83;
     position: fixed;
-    width: 101vw;
+    width: 101%;
     z-index: 1;
 }
 
@@ -71,19 +78,136 @@ header img {
     background-repeat: no-repeat;
     background-position: center;
 }
-.carousel-item {
+.carousel-acceuil-item {
     height: 100vh;
+}
+.carousel-partenaire {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
 }
 
 .message-acceuil {
     position: absolute;
     z-index: 1;
     margin-top: 47vh;
-    margin-left: 35vw;                                                                                      vw;
-    width: 30vw;
+    margin-left: 35%;                                                                                      vw;
+    width: 30%;
     background: #3f260b2a;
     text-align: center;
     border-radius: 10px;
+    color: #E2B75A;
 }
 
-
+.partenaire {
+    text-align: center;
+}
+.partenaire h2 {
+    color: #E2B75A;
+}
+footer {
+    position: relative;
+    background: #e2b75ac9;
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+}
+footer h1 {
+    color: black;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px; 
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    margin-top: 15px;
+}
+h1, h2, button {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+h1 {
+    font-size: 40px;
+    top: -10px;
+}
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+.form-label, .modal-title {
+    font-size: 20px;
+}
+p, .text-contact  {
+    font-family: arimo, sans-serif;
+    font-size: 20px; 
+    text-align: center;
+}
+.sub-title {
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+.text-tel {
+    font-size: 13px;
+    margin-top: 3px;
+}
+.horaire {
+    font-size: 15px;
+    text-align: center;
+}
+a {
+    color: black;
+    font-weight: bold;
+}
+.card {
+    background-color: #e2b75acb;
+    border-radius: 5%;
+    box-shadow: 6px 7px 9px 1px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 6px 7px 9px 1px rgba(0,0,0,0.18);
+    -moz-box-shadow: 6px 7px 9px 1px rgba(0,0,0,0.18);
+}
+.contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 2px;
+}
+.responsive-iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 40%;
+    margin: auto;
+    border: solid;
+    border-radius: 3%;
+    text-align: center;
+}
+.dropdown-menu, .modal {
+    background-color: #e2b75adc;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.card button {
+    color: black;
+    text-align: center;
+    background-color: #E2B75A;
+    border: none;
+    border-radius: 10%;
+    font-size: 25px;
+    box-shadow: 6px 7px 9px -3px rgba(0,0,0,0.07);
+    -webkit-box-shadow: 6px 7px 9px -3px rgba(0,0,0,0.07);
+    -moz-box-shadow: 6px 7px 9px -3px rgba(0,0,0,0.07);
+}
+.actu {
+    padding-top: 120px;
+}
+.row {
+    --bs-gutter-x: 0rem;
+}

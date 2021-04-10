@@ -12,11 +12,11 @@
 
 </head>
 <body>
-  <div class="container event">
-    <header class="row">
+  <div class="container-fluid event">
+    <header class="row no-gutter">
       <!--Logo à modifier-->
-      <div class="logo col-3"><img src="./Images/logo-temp.png" class="img-fluid"></div>
-      <h1 class="col-6">Tichodrome</h1>
+      <div class="logo col-3 col-sm-2"><img src="./Images/logo-temp.png" class="img-fluid"></div>
+      <h1 class="col-6 col-sm-4">Tichodrome</h1>
       <div class="dropdown menu col-3">
         <button class="btn menu" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
           <img src="./Images/logo Menu.png" class="img-fluid">
@@ -30,12 +30,30 @@
           <li><a class="dropdown-item" href="#">Accès/Contact</a></li>
         </ul>
       </div>
+      <nav class="navbar navbar-expand-md col-sm-6">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Acceuil</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Le Tichodrome</a>
+              <a class="nav-link" href="./event-news.html">Actus/Evenements</a>
+              <a class="nav-link" href="#">Don/Adhesion</a>
+              <a class="nav-link" href="#">Photos/Videos</a>
+              <a class="nav-link" href="#">Accès/Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <div class="scroll">
       <img src="./Images/Fleche Scroll.png">
     </div>
-        <h2 class="actu">Nos Actus / Evenements</h2>
-      <div class="card row margin-event">
+    <h2 class="actu">Nos Actus / Evenements</h2>
+    <div class="row justify-content-around">
+      <div class="card margin-event col-sm-3">
         <h2 class="card-title">25/02 - Porte Ouverte</h2>
         <img class="card-img-top" src="./Images/photo6.jpg" alt="Card Image Cap">
         <div class="card-body">
@@ -46,7 +64,7 @@
           </p>
         </div>
       </div> 
-      <div class="card row margin-event">
+      <div class="card margin-event col-sm-3">
         <h2 class="card-title">12/03 - Découverte</h2>
         <img class="card-img-top" src="./Images/photo10.jpg" alt="Card Image Cap">
         <div class="card-body">
@@ -56,7 +74,8 @@
             Intrinsicly network magnetic niche markets with standards compliant data.
           </p>
         </div>
-      </div> 
+      </div>
+    </div> 
     <footer>
       <h1>Le Tichodrome</h1>
       <div class="reseau">
