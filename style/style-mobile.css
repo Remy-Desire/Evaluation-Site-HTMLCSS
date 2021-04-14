@@ -98,6 +98,9 @@ a {
     margin: auto;
     border-radius: 10%;
 }
+header img {
+    width: 40px;
+}
 
 /* Composants */
 header {
