@@ -103,6 +103,9 @@ header img {
 }
 
 /* Composants */
+.row {
+    width: 100vw;
+}
 header {
     padding-top: 20px;
     background-color: #04040400;
@@ -110,7 +113,7 @@ header {
     position: fixed; 
     z-index: 1;
 }
-.dropdown-menu, .modal {
+.dropdown-menu, .modal {  
     background-color: #e2b75adc;
     font-family: 'Amatic SC', cursive;
     text-align: center;
