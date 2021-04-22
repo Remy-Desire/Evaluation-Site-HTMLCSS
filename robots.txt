@@ -1,0 +1,5 @@
+User-Agent: * 
+Disallow: /Images
+Disallow: /Consignes
+Disallow: /Maquettes
+Allow: /style
